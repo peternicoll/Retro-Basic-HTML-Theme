@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>WEBSITE TITLE</title> <!-- Add your site title here -->
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>706a6e</title> <!-- Add your site title here -->
+<meta charset="UTF-8">
 
 <meta name="description" content="site description" /> <!-- Give a brief description of your site (optional) -->
 <meta name="keywords" content="site keywords" /> <!-- Write some keywords of things your site is about, optional but good for search engines! -->
 
-<meta name="author" content="DCSK8PRK" /> <!-- Don't remove this! -->
-<link rel="icon" href="img" type="image/x-icon" /> <!-- Replace "img" with your favicon! -->
+<meta name="author" content="706a6e" /> <!-- Don't remove this! -->
+<link rel="icon" href="favicon.ico" type="image/x-icon" /> <!-- Replace "img" with your favicon! -->
 
 <!-- Anything written as "img" should be replaced with your own image file! -->
 <!-- Anything starting with "Zorblax ipsum" or other gibberish is placeholder text you can replace! -->
@@ -18,17 +18,17 @@
 <style type="text/css">
 body {
     background-color: #000000;
-    background-image: url('img');
+    background-image: url('background.png');
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #00FF00;
+    color: #F7D93D;
     scrollbar-face-color: #000000;
-    scrollbar-highlight-color: #00FF00;
+    scrollbar-highlight-color: #F7D93D;
     scrollbar-3dlight-color: #000000;
     scrollbar-darkshadow-color: #000000;
-    scrollbar-shadow-color: #00FF00;
-    scrollbar-arrow-color: #00FF00;
+    scrollbar-shadow-color: #F7D93D;
+    scrollbar-arrow-color: #F7D93D;
     scrollbar-track-color: #000000;
 }
 
@@ -48,9 +48,10 @@ a:hover {
 }
 
 .main {
-    width: 750px;
+    max-width: 750px;
+    width: 95%;
     margin: 0 auto;
-    border: 3px solid #00FF00;
+    border: 3px solid #F7D93D;
     background-color: #000000;
 }
 
@@ -58,7 +59,7 @@ a:hover {
     background-color: #000000;
     padding: 10px;
     text-align: center;
-    border-bottom: 3px solid #00FF00;
+    border-bottom: 3px solid #F7D93D;
 }
 
 .content {
@@ -68,7 +69,7 @@ a:hover {
 .sidebar {
     width: 180px;
     padding: 10px;
-    border-right: 3px solid #00FF00;
+    border-right: 3px solid #F7D93D;
     background-color: #111111;
 }
 
@@ -80,16 +81,16 @@ a:hover {
 .footer {
     text-align: center;
     padding: 10px;
-    border-top: 3px solid #00FF00;
+    border-top: 3px solid #F7D93D;
     font-size: 10px;
 }
 
 .marquee {
     background-color: #000000;
-    color: #00FF00;
+    color: #F7D93D;
     padding: 5px;
-    border-top: 1px solid #00FF00;
-    border-bottom: 1px solid #00FF00;
+    border-top: 1px solid #F7D93D;
+    border-bottom: 1px solid #F7D93D;
     font-weight: bold;
 }
 
@@ -102,22 +103,22 @@ a:hover {
 }
 
 .button {
-    border: 2px outset #00FF00;
+    border: 2px outset #F7D93D;
     background-color: #000000;
-    color: #00FF00;
+    color: #F7D93D;
     padding: 2px 5px;
     font-weight: bold;
     text-decoration: none;
 }
 
 .button:hover {
-    border: 2px inset #00FF00;
+    border: 2px inset #F7D93D;
     background-color: #003300;
 }
 
 .guestbook {
     background-color: #111111;
-    border: 1px solid #00FF00;
+    border: 1px solid #F7D93D;
     padding: 5px;
     font-size: 12px;
 }
@@ -133,17 +134,17 @@ a:hover {
 }
 
 .news {
-    border: 1px solid #00FF00;
+    border: 1px solid #F7D93D;
     margin-bottom: 10px;
     padding: 5px;
 }
 
 .news-title {
     background-color: #003300;
-    color: #00FF00;
+    color: #F7D93D;
     padding: 2px;
     font-weight: bold;
-    border-bottom: 1px solid #00FF00;
+    border-bottom: 1px solid #F7D93D;
 }
 
 .news-date {
@@ -169,9 +170,9 @@ function timeGreeting() {
     var hour = now.getHours();
     var greeting;
     
-    if (hour < 12) greeting = "Good morning, greeting!"; 
-    else if (hour < 18) greeting = "Good afternoon, greeting!";
-    else greeting = "Good evening, greeting!";
+    if (hour < 12) greeting = "good morning"; 
+    else if (hour < 18) greeting = "good afternoon";
+    else greeting = "good evening";
     
     document.getElementById("greeting").innerHTML = greeting;
 }
@@ -193,7 +194,6 @@ function randomLink() {
     ];
     window.location = links[Math.floor(Math.random() * links.length)];
 }
-});
 </script>
 
 </head>
@@ -204,12 +204,12 @@ function randomLink() {
     <div class="header">
     
     <!-- This is a banner image! Feel free to adjust the size. -->
-        <img src="img" alt="title" width="500" height="100" />
+        <img src="banner.png" alt="title" width="500" height="100" />
 
     <!-- This is a scrollbar under the banner image! I usually use it for very brief updates. -->
         <div class="marquee">
             <marquee behavior="scroll" direction="left" scrollamount="3">
-                <span class="blink">NEW!</span> Zorblax ipsum gleepzor sit amet, nebulaflux astrozoid elit, sed do xenoquark tempor glorpindor ut labore et cosmic blarg magna aliqua." />
+                <span class="blink">NEW!</span> now includes some of my favorite music."
             </marquee>
             
         </div>
@@ -220,7 +220,7 @@ function randomLink() {
         
         <!-- This is an image that appears at the top of the sidebar! It's optional, but a fun touch. -->
             <center>
-                <img src="img" alt="Image" /><br />
+                <img src="sidebarimage.png" alt="Image" /><br />
             </center>
 
         <!-- This is the sidebar, where you can put pages of your site. Add as many as you'd like! You can also use images in place of text! -->
@@ -237,7 +237,7 @@ function randomLink() {
 
          <!-- This is the random page button You can also use an image in place of text! -->
             <ul>
-                <li><a href="javascript:randomLink()">I'm feeling lucky!</a></li>
+                <li><a href="javascript:randomLink()">im feeling lucky</a></li>
             </ul>
         
          <!-- This is a good spot for a few 88x31 buttons, and where I put my guestbook button. -->
@@ -258,8 +258,8 @@ function randomLink() {
             <p>Hey, thanks for using this <span class="alert">totally awesome HTML layout!</span> If you're newer to coding, I'd suggest reading the <span class="warning">source code</span> for my <span class="warning">helpful notes</span> to learn how to use certain things.</p>
 
          <!-- This is a good spot for a hitcounter! You can get one for your site at count.getloli.com! -->
-            <p>You are visitor number:</p>
-            <img src="img" width="280" alt="Image" /><br><br>
+            <p>you are visitor number:</p>
+            <img src="https://count.getloli.com/@0cdb1f8bbc3f8490de37cd42b0a5fc02?name=0cdb1f8bbc3f8490de37cd42b0a5fc02&theme=nixietube-2&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=1" width="280" alt="Image" /><br><br>
             
 
          <!-- This is a good spot for graphics. I use it for buttons that move around the site. -->
@@ -289,14 +289,14 @@ function randomLink() {
             <div class="news">
 
             <!-- This is where you'd put a title for a small blurb -->
-                <div class="news-title">LATEST NEWS</div>
+                <div class="news-title">latest news</div>
 
             <!-- This is where you'd put a date for the small blurb -->
-                <div class="news-date">Month Day, Year</div>
+                <div class="news-date">february 18, 2026</div>
 
             <!-- This is where you'd put the content of your small blurb -->
                 <div class="news-content">
-                    <p>Zorblax ipsum gleepzor sit amet, nebulaflux astrozoid elit, sed do xenoquark tempor glorpindor ut labore et cosmic blarg magna aliqua. Ut enim ad lunar zappor, quis nostrum warpzoid exercitatum voolax laboris nisi ut starbeam ex ea meteor consequark. Duis aute iridium glowzor in representatum in galacto shimmerax esse cillum photon eu stardust nulla pulsar. Exceptor void occaecat nebulon non proident, sunt in asteroid qui cosmic driftoid mollit anim id est warpdrive</p>
+                    <p>welcome to my brand new website. this is where i'll put anything i want.</p>
                 </div>
             </div>
 
@@ -340,15 +340,13 @@ function randomLink() {
     </div>
     
     <div class="footer">
-        <a href="#top">Back to Top</a> | <!-- Take it from the top! -->
+        <a href="#top">back to top</a> | <!-- Take it from the top! -->
         
         <a href="link.html">Link</a> | <!-- This is a link you can use for anything, good for site maps -->
 
         <!-- You can insert your email here, but it is optional! -->
-        <a href="mailto:youremail@gmail.com">Contact Me</a><br /><br>
+        <a href="mailto:mail@peternicoll.com">contact me</a><br /><br>
 
-        <!-- DO NOT REMOVE THIS CREDIT! -->
-        &copy; Layout made with help from <a href="https://dcsk8prk.nekoweb.org/">dcsk8prk</a><br />
 
         <!-- Shows at the bottom when your site was last updated, completely optional but fun to have! -->
         Last updated: <script language="JavaScript">document.write(document.lastModified);</script>
